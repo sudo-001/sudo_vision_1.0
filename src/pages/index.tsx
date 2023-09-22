@@ -99,7 +99,7 @@ function Home() {
               </motion.div>
 
               {/* Central bar */}
-              <motion.div  whileInView={{ y: 0, opacity: 1 }} initial={{ opacity: 0, y: 40 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }} className='backdrop-blur-sm shadow-xl rounded-[50px] bg-[#CFCFCF]/5 h-[80%] py-8 flex flex-col gap-8 justify-center items-center '>
+              <motion.div  whileInView={{ y: 0, opacity: 1 }} initial={{ opacity: 0, y: 40 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }} className='backdrop-blur-sm shadow-xl rounded-[50px] bg-[#CFCFCF]/5 h-[80%] py-8 flex flex-col gap-8 justify-center items-center overflow-y-scroll '>
 
                 <div className='flex gap-20 text-white'>
                   <motion.div initial={{ opacity: 0, y: 5 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.0 }} className='flex flex-col gap-2 justify-center items-center'>
@@ -115,6 +115,8 @@ function Home() {
                     <h1>settings</h1>
                   </motion.div>
                 </div>
+
+                
 
                 <div className='flex gap-20 text-white'>
                   <motion.div initial={{ opacity: 0, y: 5 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.6 }} className='flex flex-col gap-2 justify-center items-center'>
@@ -156,7 +158,7 @@ function Home() {
 
               {/* Bottom bar */}
               <motion.div className='transition-all duration-500 overflow-y-hidden  flex justify-center items-center py-4'>
-                <motion.div initial={{ opacity: 0, y: 40 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, ease: 'easeInOut' }} className='transition-all duration-500 hover:cursor-pointer  flex flex-col justify-around bg-[#F0F0F0]/100 w-20 rounded-full px-4 py-1' onClick={() => document.getElementById('my_modal_2').showModal()}>
+                <motion.div initial={{ opacity: 0, y: 40 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, ease: 'easeInOut' }} className='transition-all duration-500 hover:cursor-pointer  flex flex-col justify-around bg-[#F0F0F0]/80 w-20 rounded-full px-4 py-1 hover:w-24 hover:bg-[#F0F0F0]/100 origin-left' onClick={() => document.getElementById('my_modal_2').showModal()}>
 
                 </motion.div>
                 <dialog id="my_modal_2" className="modal backdrop-hue-rotate-60 backdrop-blur-sm">
@@ -184,7 +186,7 @@ function Home() {
         <>
           <div className='w-full h-full flex justify-center items-center'>
             {/* <div className='h-screen w-screen absolute z-10 blur-xl' /> */}
-            <motion.div initial={{ opacity: 0, y: 40 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }} className='flex items-center justify-center flex-col  gap-4 border bg-gray-500/30 rounded-full p-8 hover:scale-110 backdrop-blur-lg hover:cursor-pointer '>
+            <motion.div initial={{ opacity: 0, y: 40 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }} className='flex items-center justify-center flex-col  gap-4 border bg-gray-500/0 rounded-full p-8 hover:scale-110 backdrop-blur-lg hover:cursor-pointer '>
               <Image src={logos.powerOn} alt={'PoserOn'} onClick={() => setPower(true)} className="w-12 h-12 hover:scale-110 transition-all duration-300 rounded-full hover:shadow-lg hover:cursor-pointer" />
 
               {/* <h1>Switch on</h1> */}
