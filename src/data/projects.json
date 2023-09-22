@@ -1,0 +1,26 @@
+[
+    {
+        "image": "/assets/images/capture_ecran/findajob.png",
+        "description": "Web application enabling job seekers to search for work and companies or individuals to post job offers.",
+        "technos": ["NextJs", "Typescript", "Tailwindcss", "Figma", "NestJs", "Vercel"],
+        "github_link": "",
+        "online_link": "https://find-a-job-front.vercel.app/",
+        "title": "Find A Job"
+    },
+    {
+        "image": "/assets/images/capture_ecran/tesla.png",
+        "description": "Clone of the UI of the Tesla website",
+        "technos": ["JavaScript", "Tailwindcss", "Vercel"],
+        "github_link": "https://github.com/sudo-001/tesla_website_clone/",
+        "online_link": "https://tesla-website-clone-nu.vercel.app/",
+        "title": "Clone testa UI"
+    },
+    {
+        "image": "/assets/images/capture_ecran/tesla.png",
+        "description": "Clone of the UI of the Tesla website",
+        "technos": ["JavaScript", "Tailwindcss", "Vercel"],
+        "github_link": "https://github.com/sudo-001/tesla_website_clone/",
+        "online_link": "https://tesla-website-clone-nu.vercel.app/",
+        "title": "Clone testa UI"
+    }
+]

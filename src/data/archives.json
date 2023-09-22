@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Wheather App",
+        "description": "A frontend application that consumes a weather API and provides information on the weather in a given city.",
+        "technos": ["HTML", "CSS", "JavaScript"],
+        "link": "https://weather-app-inky-six.vercel.app/"
+    },
+    {
+        "title": "CodersList",
+        "description": "A frontend application for learning how to use NEXTJS, with an API that provides information about users.",
+        "technos": ["Nextjs", "TailwindCss", "Vercel"],
+        "link": "https://coderslist.vercel.app/"
+    }
+]

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-stroke-white {
+    -webkit-text-stroke: 1px white;
+}
+
+.active {
+    color: #64ffda
+}
+
+.stroke-mobile-link {
+    -webkit-text-stroke: 1px white;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    scroll-behavior: smooth;
+}
